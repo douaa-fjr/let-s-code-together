@@ -1,0 +1,42 @@
+body{
+    background: linear-gradient(#6abd97,#cfeee0);
+}
+#content{
+    display: grid;
+    
+    width: 990px;
+    margin: 0 auto;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 550px;
+    grid-column-gap: 20px;
+}
+.oglowl{
+    display: grid;
+    grid-template-columns: 37% 63%;
+    border-radius: 5%;
+}
+.theside{
+    background-color: blueviolet;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius:5% ;
+}
+.lowl{
+    background-color: brown;
+    display: grid;
+    grid-template-rows: 10% 90%;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius:5% ;
+}
+.tani{
+    background-color: blue;
+    border-radius: 5%;
+}
+.hdc1{
+    background-color: antiquewhite;
+    padding: 1em;
+    border-top-left-radius:25px ;
+}
+.button{
+    padding: 0em;
+    cursor: pointer;
+}
